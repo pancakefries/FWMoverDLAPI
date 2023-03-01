@@ -38,7 +38,8 @@ int main()
         if (line == "q") {
             std::cout << "Done" << std::endl;
             return 0;
-        std::atoi(line.c_str());
+        }
+        iLine = std::atoi(line.c_str());
         if (iLine > 9 || iLine < 0) {
             std::cout << "Enter a valid filter position (0-9)" << std::endl;
         } else {

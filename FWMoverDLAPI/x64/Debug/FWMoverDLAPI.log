@@ -1,4 +1,4 @@
 ﻿  FWMoverDLAPI.cpp
 FWMoverDLAPI.obj : error LNK2019: unresolved external symbol __imp_getGateway referenced in function main
 FWMoverDLAPI.obj : error LNK2019: unresolved external symbol __imp_deleteGateway referenced in function main
-C:\Users\jagar\Documents\GitHub\FWMoverDLAPI\FWMoverDLAPI\x64\Debug\FWMoverDLAPI.exe : fatal error LNK1120: 2 unresolved externals
+C:\Users\NUC\Documents\GitHub\FWMoverDLAPI\FWMoverDLAPI\x64\Debug\FWMoverDLAPI.exe : fatal error LNK1120: 2 unresolved externals

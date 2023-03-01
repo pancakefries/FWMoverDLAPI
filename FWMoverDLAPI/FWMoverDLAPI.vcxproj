@@ -109,6 +109,12 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)\..\lib\x64\*"  "$(TargetDir)"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy "$(SolutionDir)lib\x64\*"  "$(TargetDir)" &amp;&amp; copy "$(SolutionDir)dependencies\x64\*"  "$(TargetDir)"</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
